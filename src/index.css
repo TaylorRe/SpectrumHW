@@ -1,0 +1,30 @@
+#title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  
+  #data {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #data td, #data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #data tr:hover {background-color: #ddd;}
+  #data tr:nth-child(even){background-color: #f2f2f2;}
+  
+  
+  #data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #8F8484;
+    color: white;
+  }
